@@ -1,0 +1,135 @@
+body {
+  background: url('../img/body-bg1.png') repeat;
+  text-transform: uppercase;
+}
+hr {
+  width: 50%;
+  border-top: 1px solid #000;
+  padding-bottom: 50px;
+}
+p::first-letter, h1::first-letter, h2::first-letter {
+  font-size: 120%;
+}
+
+#banner {
+  background: url('../img/banner-bg.png') no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  position: relative;
+  height: 858px;
+  color: #fff;
+}
+#banner a:link, #banner a:visited, #navCont a:hover {
+  color: #fff;
+}
+#navCont a:link, #navCont a:visited, #navCont a:hover {
+  color: #fff;
+}
+#sitemap a:link, #sitemap a:visited {
+  color: #fff;
+}
+#sitemap a:hover {
+  background-color: #fff;
+  color: #672727;
+}
+#info {
+  background-color: #f8f0f9;
+  min-height: 450px;
+  display: inline;
+  text-align: justify;
+  margin: 20px 0;
+}
+#info img {
+  width: 100%;
+}
+#message {
+  margin-top: 150px;
+  text-align: center;
+}
+#deets {
+  margin-top: 140px;
+  padding: 25px 85px;
+  background: rgba(72, 72, 72, 0.6);
+  text-align: justify;
+}
+
+#joinus {
+  position: absolute;
+  bottom: 55px;
+  left: 50%;
+  text-align: center;
+}
+#joinus a, #joinus a:link, #joinus a:visited, #joinus a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#what-menu, #solano-map {
+  margin-top: 85px;
+}
+#what-menu h3 {
+  padding-right: 75px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+#solano-map h3 {
+  padding-left: 100px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+#cta {
+  margin-bottom: 105px;
+}
+#goal {
+  position: relative;
+  padding: 0 0 95px;
+  /*border-top: 1px solid black;*/
+}
+#footer {
+  background-color: #672727;
+  position: relative;
+  height: 250px;
+}
+#diamond {
+  background: url('../img/footer-diamonds2.jpg') no-repeat;
+  position: absolute;
+  height: 51px;
+  width: 48px;
+  margin: 0 auto;
+  top: -19px;
+  left: 50%;
+}
+#footWrap {
+  color: #fff;
+  margin: 35px 0;
+}
+#footWrap img {
+  text-align: center;
+}
+.navbar-default {
+  background: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+  border-radius: 0;
+  border: none;
+}
+.navbar a:link, .navbar-nav a:visited, .navbar0nav a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.login {
+  width: 350px;
+}
+.shortBorder {
+  position: absolute;
+  border: 1px solid #000;
+  bottom: 0;
+}
+.header-red, th {
+  color: #672727;
+}
+@media all and ( max-width: 768px ) {
+  #banner {
+    background: none;
+    height: 400px;
+    color: #000;
+  }
+}
